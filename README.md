@@ -11,9 +11,9 @@
 $ npm uninstall -g create-react-app
 $ npm install -g create-react-app
 $ npx create-react-app jubo_frontend
-$ npm start
-$ npm test
+$ npm run start
+$ npm run test
 $ npm run build
-$ 
+$ npm install --save @mui/material @emotion/react @emotion/styled @mui/icons-material axios
 $ 
 $ 
