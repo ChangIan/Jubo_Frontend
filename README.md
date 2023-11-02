@@ -28,6 +28,74 @@ $ docker build -t "jubofrontend:0.0.1" -t "jubofrontend:latest" .
 $ docker run -d --restart=always --name jubofrontend -p 8877:80 jubofrontend:latest
 ```
 
+## Output
+
+```bash
+.
+|   .env
+|   .env.production
+|   .gitignore
+|   Dockerfile
+|   nginx-jubo.conf
+|   package.json
+|   prettierrc.json
+|   README.md
+|   tree.txt
+|   
++---public
+|       favicon.ico
+|       index.html
+|       manifest.json
+|       robots.txt
+|       
++---snapshot
+|       snapshot1.png
+|       snapshot2.png
+|       
+\---src
+    |   App.css
+    |   App.js
+    |   App.test.js
+    |   index.css
+    |   index.js
+    |   reportWebVitals.js
+    |   setupTests.js
+    |   
+    +---component
+    |   +---Footer
+    |   |       index.css
+    |   |       index.js
+    |   |       
+    |   +---Header
+    |   |       index.css
+    |   |       index.js
+    |   |       
+    |   +---Main
+    |   |       index.css
+    |   |       index.js
+    |   |       
+    |   \---OrderDialog
+    |           DialogContext.js
+    |           index.js
+    |           OrderDialog.js
+    |           Toolbar.js
+    |           ToolbarButton.js
+    |           
+    +---service
+    |   +---Orders
+    |   |       index.js
+    |   |       
+    |   \---Patient
+    |           index.js
+    |           
+    +---util
+    |       requestAsync.js
+    |       sort.js
+    |       
+    \---view
+            Patient.js
+```
+
 ## Snapshot
 
 ### Patients
