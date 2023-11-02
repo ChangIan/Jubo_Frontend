@@ -274,7 +274,7 @@ export default function OrderDialog({ open, data, setShowDialog }) {
     {
       text: "刪除",
       icon: <DeleteIcon />,
-      disabled: (state.selectedOrder === null ? true : false),
+      disabled: (state.selectedOrder === null || state.selectedOrder.Id.toString().startsWith('未') ? true : false),
       handler: async () => {
         const { Id } = state.selectedOrder || {};
 
