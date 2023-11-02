@@ -5,6 +5,7 @@
 - Docker 24.0.2
 - Node v18.15.0
 - npm 9.5.0
+- react ^18.0.0
 
 ## Initialize
 
